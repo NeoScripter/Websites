@@ -46,6 +46,7 @@
     align-items: center;
     width: 200px;
     height: 370px;
+    max-height: 370px;
     padding: 1.5rem;
     border-radius: 10px;
     background-color: var(--frame-background-color);
@@ -81,3 +82,8 @@
     margin-top: 0.8rem;
   }
   
+  @media screen and (max-width: 230px) {
+    a {
+      margin: 0.1rem;
+    }
+  }
