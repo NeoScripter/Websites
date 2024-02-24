@@ -1,0 +1,260 @@
+/* Section one */
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+#one, #footer {
+    background-color: #1f2937;
+    color: #fff;
+}
+
+.header-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.h1 {
+    font-size: 2em; 
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+.header-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-links > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+a img {
+    border-radius: 30%;
+}
+.call {
+    height: 3rem;
+    width: 3rem;
+}
+
+.email {
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+}
+
+.visit {
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+}
+
+.one-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-bottom > div {
+    color: rgb(232, 224, 224);
+    display: flex;
+    width: 70%;
+    padding: 6rem;
+    gap: 2rem;
+}
+
+.one-bottom > div > div {
+    flex: 1;
+}
+
+.one-bottom p {
+    margin: 10px 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.one-bottom h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color:#f9faf8;
+}
+
+.cat-chef {
+    width: 100%;
+    object-fit: cover; 
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.left a {
+    font-weight: bold;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+
+.left {
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+    .header-links {
+        gap: 0.5rem; /* Smaller gap for tighter spaces */
+    }
+    .one-bottom p {
+        font-size: 80%;
+    }
+    .one-bottom h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .one-bottom p{ 
+        font-size: 100%;
+    }
+    .one-bottom h2 {
+        font-size: 30px;
+    }
+    .one-bottom > div {
+        width: 100%; 
+        padding: 2rem;
+    }
+    .one-bottom > div {
+        flex-direction: column;
+    }
+    .mario {
+        height: auto;
+    }
+    @media screen and (max-width: 350px) {
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header-links {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+/* Section two */
+
+.two-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#two {
+    text-align: center;
+}
+
+#two h2 {
+    padding: 1rem 1rem;
+}
+
+.two-images > * {
+    width: 150px;
+    margin-bottom: 20px; 
+}
+
+.two-images img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #1f2937;
+    border-radius: 15px;
+}
+
+.two-images p {
+    margin: 10px 0 0;
+    word-wrap: break-word; 
+}
+
+/* Section three */
+
+#three {
+    padding-inline: 20%;
+    padding-block: 5%;
+    background-color: #e5e7eb;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+#three p + p {
+    font-weight: bold;
+    text-align: end;
+    font-size: .8em;
+    margin-top: .5rem;
+}
+
+/* Section four */
+
+.blue-square {
+    border-radius: 10px;
+    margin: 10% 20%;
+    background-color: #3882f6;
+    color: #fff;
+    padding: 20px;
+}
+
+.blue-square > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    font-weight: bold;
+    font-size: 18px;
+}
+.blue-square a {
+    border: 1px solid white;
+    font-weight: bold;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    align-self: center;
+}
+
+/* Section five */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
