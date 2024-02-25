@@ -120,6 +120,10 @@ a img {
     background-color: #3882f6;
 }
 
+.left a:hover {
+    background-color: #789fdd;
+}
+
 .left {
     display: block;
 }
@@ -248,6 +252,10 @@ span {
     color: #fff;
     border-radius: 10px;
     align-self: center;
+}
+
+.blue-square a:hover {
+    background-color: rgb(33, 71, 132);
 }
 
 /* Section five */
