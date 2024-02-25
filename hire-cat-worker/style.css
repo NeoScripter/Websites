@@ -46,10 +46,11 @@ body {
 .header-links > div {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     font-weight: bold;
     font-size: 1.3rem;
 }
+
 a img {
     border-radius: 30%;
 }
@@ -61,13 +62,11 @@ a img {
 .email {
     height: 3rem;
     width: 3rem;
-    background-color: white;
 }
 
 .visit {
     height: 3rem;
     width: 3rem;
-    background-color: white;
 }
 
 .one-bottom {
