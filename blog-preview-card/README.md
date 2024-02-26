@@ -1,0 +1,1 @@
+My solution to the Blog Preview Card exercise.
