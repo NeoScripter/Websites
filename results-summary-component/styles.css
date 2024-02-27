@@ -1,0 +1,187 @@
+/* Basic reset and fonts */
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+}
+
+/* Wrapper styles */
+
+.wrapper {
+    max-width: 32rem;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 3px 8px 14px rgb(0,0,0,0.1);
+}
+
+/* Main section styles */
+
+.left-main, .right-main {
+    width: 50%;
+    padding: 1.5rem;
+}
+
+.left-main {
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, rgba(120, 87, 255, 1), hsl(241, 81%, 54%) 90%);    color:hsl(0, 0%, 100%);
+}
+
+/* Text styles */
+
+h1 {
+    font-size: 1rem;
+    margin: 0 0 1.5rem 0;
+    color: hsl(241, 100%, 89%);
+}
+
+h2 {
+    margin: .7rem;
+}
+
+p {
+    margin: 0;
+    color: hsl(241, 100%, 89%);
+    font-size: .8rem;
+}
+
+/* Circle styles */
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    aspect-ratio: 1 / 1;
+    width: 40%;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1) 90%); 
+}
+
+/* Additional elements styles */
+
+h2 + div {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.result {
+    font-size: 3em;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .7rem;
+}
+
+.flex-container {
+    font-weight: 800;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+/* Link styles */
+
+a {
+    display: block;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    margin: 1.5rem auto 0 auto;
+    padding: .7rem;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+a:hover, a:active {
+    background-color: hsl(234, 85%, 45%);
+}
+
+/* Flex container variants */
+
+.flex-container .right {
+    color: rgb(90,58,48,0.5);
+}
+
+span {
+    color: hsl(14, 30%, 27%);
+}
+
+/* Specific items styles */
+
+#one .left, #two .left, #three .left, #four .left {
+    padding-left: 1.6rem;
+    background-repeat: no-repeat;
+    background-position: .2rem 0;
+    background-size: .8rem;
+}
+
+#one .left {
+    color: hsl(0, 100%, 67%);
+    background-image: url(assets/images/icon-reaction.svg);
+}
+
+#one {
+    background-color: rgb(255,87,87,0.1);
+}
+
+#two .left {
+    color: hsl(39, 100%, 56%);
+    background-image: url(assets/images/icon-memory.svg);
+}
+
+#two {
+    background-color: rgb(255,176,31,0.1);
+}
+
+#three .left {
+    color: hsl(166, 100%, 37%);
+    background-image: url(assets/images/icon-verbal.svg);
+}
+
+#three {
+    background-color: rgb(0,189,145,0.1);
+}
+
+#four .left {
+    color: hsl(234, 85%, 45%);
+    background-image: url(assets/images/icon-visual.svg);
+}
+
+#four {
+    background-color: rgb(17,37,212,0.1);
+}
+
+/* Responsive resign */
+
+@media (max-width: 500px) {
+    .wrapper {
+        flex-direction: column;
+        border-radius: 0;
+    }
+    
+    .left-main, .right-main {
+        width: auto;
+        border-radius: 0 0 25px 25px;
+    }
+}

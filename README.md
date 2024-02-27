@@ -7,3 +7,4 @@ This is a repo where I publish my website projects.
 * [Four card section Frontend Mentor](https://neoscripter.github.io/Websites/four-card-section/), a simple page with  four cards placed in a certain order.
 * [Recipe Page Frontend Mentor](https://neoscripter.github.io/Websites/recipe-page/), a webpage with an omelette recipe and stylish design.
 * [Blog Preview Card Frontend Mentor](https://neoscripter.github.io/Websites/blog-preview-card/), a webpage with a card preview.
+* [Result Summary Component Frontend Mentor](https://neoscripter.github.io/Websites/results-summary-component/), a webpage with a display showing the results of some activity with an eye-appealing design.
