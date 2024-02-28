@@ -1,0 +1,1 @@
+My solution to the Product preview card component exercise.
