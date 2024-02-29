@@ -1,0 +1,176 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
+ */
+
+ /* Font styles */
+
+ @font-face {
+    font-family: 'Red Hat Display';
+    src: url(fonts/RedHatDisplay-VariableFont_wght.ttf);
+ }
+
+/* Text layout settings */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Red Hat Display';
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.outer {
+    max-width: 20em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgb(0,0,0,0.2);
+}
+
+.inner {
+    margin: .8em;
+    text-align: center;
+}
+
+.illustration {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.payment-window {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(224,232,255,0.4);
+    font-size: .7rem;
+    border-radius: 5px;
+    gap: 1rem;
+}
+
+.payment-window-left {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.plan-price {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.payment-window-left img {
+    margin: 0;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+/* Text stylying */
+
+.header {
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin-block: 1rem;
+}
+
+.description {
+    margin-inline: 1rem;
+    font-size: .8rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.lower-line, .description {
+    color: hsl(224, 23%, 55%);
+}
+
+.change-link, .upper-line {
+    font-weight: 800;
+}
+
+.lower-line {
+    font-weight: 500;
+}
+
+/* Link stylying */
+
+.proceed, .cancel {
+    display: inline-block;
+    width: 90%;
+    padding-block: .8em;
+    font-size: .7rem;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-block: .5em;
+}
+
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0 10px 15px rgb(0,0,0,0.3);
+}
+
+.cancel {
+    color: hsl(223, 15%, 41%);
+}
+
+.change-link:hover, .change-link:focus {
+    color: hsl(245, 63%, 67%);
+    text-decoration: none;
+}
+
+.proceed:hover, .proceed:focus {
+    background-color: hsl(245, 63%, 67%);
+    text-decoration: none;
+}
+
+.cancel:hover, .cancel:focus {
+    color: black;
+    font-weight: 900;
+}
+
+/* Responsive design */
+
+@media (max-width: 500px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        margin-inline: 1rem;
+    }
+}
