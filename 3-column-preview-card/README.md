@@ -1,0 +1,1 @@
+My solution to the 3-column preview card component exercise
