@@ -10,3 +10,4 @@ This is a repo where I publish my website projects.
 * [Result Summary Component Frontend Mentor](https://neoscripter.github.io/Websites/results-summary-component/), a webpage with a display showing the results of some activity with an eye-appealing design.
 * [Product Preview Card Frontend Mentor](https://neoscripter.github.io/Websites/product-preview-card/), a webpage with a product card preview.
 * [Three Column Preview Card Frontend Mentor](https://neoscripter.github.io/Websites/3-column-preview-card/), a webpage with a three-column card preview.
+* [NFT Preview Card Frontend Mentor](https://neoscripter.github.io/Websites/nft-preview-card/), a webpage with a three-column card preview.

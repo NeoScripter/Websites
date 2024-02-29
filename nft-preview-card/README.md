@@ -1,0 +1,1 @@
+My solution to the NFT preview card exercise.
