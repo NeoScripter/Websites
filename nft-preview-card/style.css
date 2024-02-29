@@ -42,9 +42,6 @@ src: url(fonts/Outfit-VariableFont_wght.ttf);
 
 /* Main layout settings */
 
-html {
-    font-size: 14px;
-}
 body {
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit';
