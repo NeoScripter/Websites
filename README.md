@@ -12,3 +12,4 @@ This is a repo where I publish my website projects.
 * [Three Column Preview Card Frontend Mentor](https://neoscripter.github.io/Websites/3-column-preview-card/), a webpage with a three-column card preview.
 * [NFT Preview Card Frontend Mentor](https://neoscripter.github.io/Websites/nft-preview-card/), a webpage with a three-column card preview.
 * [Order Summary Frontend Mentor](https://neoscripter.github.io/Websites/order-summary/), a webpage with an order summary.
+* [Social Proof Section Frontend Mentor](https://neoscripter.github.io/Websites/social-proof-section/), a webpage with an order summary.
