@@ -120,16 +120,19 @@ body {
 .change-link:hover, .change-link:focus {
     color: hsl(245, 63%, 67%);
     text-decoration: none;
+    transition: all .2s ease-out;
 }
 
 .proceed:hover, .proceed:focus {
     background-color: hsl(245, 63%, 67%);
     text-decoration: none;
+    transition: all .4s ease-out;
 }
 
 .cancel:hover, .cancel:focus {
     color: black;
     font-weight: 900;
+    transition: all .2s ease-out;
 }
 
 /* Responsive design */
