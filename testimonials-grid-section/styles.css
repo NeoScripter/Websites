@@ -108,6 +108,14 @@ article {
 
 #four { background-color: var(--bg-color-four); }
 
+#one img, #four img {
+    border: 2px solid #A775F1;
+}
+
+#two img {
+    border: 2px solid rgb(204, 199, 199);
+}
+
 /* Font settings */
 
 .name {
