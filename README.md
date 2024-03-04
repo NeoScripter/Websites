@@ -16,3 +16,4 @@ This is a repo where I publish my website projects.
 * [Article Preview Component Frontend Mentor](https://neoscripter.github.io/Websites/article-preview-component/), a webpage with an article.
 * [Testimonials Grid Section Frontend Mentor](https://neoscripter.github.io/Websites/testimonials-grid-section/), a webpage with testimonials.
 * [Interactive Rating Component Frontend Mentor](https://neoscripter.github.io/Websites/interactive-rating/), a webpage that simulates a simple request for evalution.
+* [Fylo Data Storage Component Frontend Mentor](https://neoscripter.github.io/Websites/fylo-data-storage/), a webpage that shows the  remaining and total amounts of memory in an eye-appealing way.
